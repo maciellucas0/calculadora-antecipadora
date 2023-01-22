@@ -7,22 +7,17 @@ export const ContainerResultadosStyle = styled.div`
   flex-flow: column nowrap;
   justify-content: center;
   align-items: center;
-
   
 
   h2 {
-    font-size: 18px;
+    font-size: 20px;
     font-weight: bold;
-    font-style: italic;
-    width: fit-content;
-    color: var(--title-list);
+    color: var(--title);
   }
-
- 
 
   .linhaDivisora {
     width: 80%;
-    background-color: var(--title-list);
+    background-color: var(--title);
     height: 2px;
   }
 `

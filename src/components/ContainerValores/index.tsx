@@ -1,12 +1,12 @@
 import Input from "../entradaValores/index"
-import { CalculatorPostData } from "../../interfaces"
+
 import { ContainerValoresStyle } from "./style"
 
 
 const ContainerValores = () => {
 
 
-  const onSubmit = (data: CalculatorPostData) => {
+  const onSubmit = () => {
     return {}
   }
 
